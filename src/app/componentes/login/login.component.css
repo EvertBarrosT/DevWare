@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 #tela{
-    background-image: url("/assets/linhaBaixo.svg"), 
-                      url("/assets/linhaCima.svg"), 
-                      url("/assets/linhas.svg"), 
-                      url("/assets/linhas.svg");
+    background-image: url(https://i.imgur.com/aWedLsq.png), 
+                      url(https://i.imgur.com/gacInZ0.png), 
+                      url(https://i.imgur.com/8LnEyJX.png), 
+                      url(https://i.imgur.com/8LnEyJX.png);
     background-repeat: no-repeat, 
                        no-repeat,
                        no-repeat,
