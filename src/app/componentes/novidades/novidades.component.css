@@ -1,0 +1,49 @@
+article{
+    padding-bottom: 4em;
+}
+
+#cartoes{
+    display: grid;
+	grid-template-columns: 0fr 1fr;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 1.3em 1.3em 1em 1.3em;
+}
+
+#icone{
+    grid-row: 1 / 3;
+}
+
+.descricao{
+    display: block;
+    grid-column: 2;
+    margin-left: 1em;
+    padding-bottom: 1.5em;
+    font-weight: 100;
+    border-bottom: solid 0.13em #938F99;
+}
+
+#icone {
+    background-color: white;
+    width: 4em;
+    border-radius: 0.5em;
+}
+
+#tema{
+    font-size: 1.2em;
+    margin-left: 0.8em;
+    font-weight: 700;
+}
+
+#data{
+    margin-right: 1em;
+    color: #BDBDBD;
+}
+
+#dados{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

@@ -1,0 +1,128 @@
+#dados{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 4em;
+}
+
+#grafico{
+    display: block;
+    width: 25rem;
+    height: 25rem;
+    background-color: #1C1B1F;
+    border-radius: 1em;
+    margin: 2em auto;
+}
+
+#cartoes{
+    display: flex;
+    background-color: #1C1B1F;
+    margin: 1em 2em 1em 2em;
+    border: solid 0.1em #938F99;
+    border-radius: 1.2em;
+    
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.15em 1.2em;
+    flex: auto;
+}
+
+#tema{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+}
+
+#icone{
+    width: 6em;
+}
+
+#data{
+    margin-right: 3em;
+}
+
+#tempo{
+    margin-right: 6em;
+}
+
+#certificados{
+    display: flex;
+}
+
+h2 {
+    margin-left: 2rem;
+}
+
+#linkCert{
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1B1F;
+    width: 15em;
+    padding-left: 1em;
+    margin: 1em 2em 1em 2em;
+    border: solid 0.1em #938F99;
+    border-radius: 1.2em;
+}
+
+#iconTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#tituloCert{
+    padding-top: 0.2em;
+    font-size: 1.2em;
+}
+
+#iconCert{
+    width: 3.5em;
+}
+
+#listaDados{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin-left: 0.8em;
+}
+
+@media only screen and (max-width: 600px) {
+    #data{
+        margin-right: 0;
+        grid-row: 2;
+    }
+    
+    #tempo{
+        margin-right: 0;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #certificados{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #grafico{
+        width: 80%;
+        height: 80%;
+    }
+}

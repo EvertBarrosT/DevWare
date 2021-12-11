@@ -1,0 +1,29 @@
+<nav>
+    <ul id="pacote">
+        <li class="linhas" (click)="navergar('home')" 
+        [ngStyle]="{'color' : cor[0] == true ? '#12B4CA' : '#BDBDBD' }">
+            <i class="bi-house icon"></i>
+            <p class="titulo">Home</p>
+        </li>
+        <li class="linhas" (click)="navergar('nov')" 
+        [ngStyle]="{'color' : cor[1] == true ? '#12B4CA' : '#BDBDBD' }">
+            <i class="bi-bell icon"></i>
+            <p class="titulo">Novidades</p>
+        </li>
+        <li class="linhas" (click)="navergar('down')"
+        [ngStyle]="{'color' : cor[2] == true ? '#12B4CA' : '#BDBDBD' }">
+            <i class="bi-download icon"></i>
+            <p class="titulo">Downloads</p>
+        </li>
+        <li class="linhas" (click)="navergar('dados')"
+        [ngStyle]="{'color' : cor[3] == true ? '#12B4CA' : '#BDBDBD' }">
+            <i class="bi-clipboard-data icon"></i>
+            <p class="titulo">Dados</p>
+        </li>
+        <li class="linhas" (click)="navergar('pod')"
+        [ngStyle]="{'color' : cor[4] == true ? '#12B4CA' : '#BDBDBD' }"> 
+            <i class="bi-play-circle icon"></i>
+            <p class="titulo">Podcasts</p>
+        </li>
+    </ul>
+</nav>

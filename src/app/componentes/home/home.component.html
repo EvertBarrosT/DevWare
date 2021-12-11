@@ -1,0 +1,60 @@
+<app-headers></app-headers>
+<div id="carouselExampleControls" class="carousel slide ad" data-bs-ride="carousel">
+    <div class="carousel-inner propagandas">
+      <div class="carousel-item active">
+        <img src="./assets/curso1.jpg" class="d-block w-100 imgCaro" alt="Curso para mulheres" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/curso2.jpg" class="d-block w-100 imgCaro" alt="Promoção de formação" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/curso3.png" class="d-block w-100 imgCaro" alt="Podcast Dev" height="400">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+<section id="cartoes">
+    <div class="card">
+        <img src="./assets/java.png" class="card-img-top imgCard" alt="Logo Java">
+        <div class="card-body">
+          <h5 class="card-title">Java</h5>
+          <p class="card-text">O Java é uma das linguagens de programação mais usadas no mundo, segundo o ranking da TIOBE.</p>
+          <a class="btn btn-info">Começar</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="./assets/html.png" class="card-img-top imgCard" alt="Logo Java">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">O HTML e o CSS, são as fundamentais para a criação de qualquer site.</p>
+          <a class="btn btn-info">Começar</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="./assets/angular.svg" class="card-img-top imgCard" alt="Logo Java">
+        <div class="card-body">
+          <h5 class="card-title">Angular</h5>
+          <p class="card-text">Aprenda as vantagens de um dos frameworks mais utilizados no mundo e requisitados no mercado!</p>
+          <a class="btn btn-info" (click)="irParaCurso()">Começar</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="./assets/css.jpg" class="card-img-top imgCard" alt="Logo Java">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">O HTML e o CSS, são as fundamentais para a criação de qualquer site.</p>
+          <a class="btn btn-info">Começar</a>
+        </div>
+    </div>
+</section>
+<app-nav></app-nav>
